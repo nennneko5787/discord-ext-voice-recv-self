@@ -42,7 +42,7 @@ setup(
     long_description_content_type='text/markdown',
     include_package_data=True,
     python_requires='>=3.8',
-    install_requires=['git+https://github.com/dolfies/discord.py-self.git@20ae80b398ec83fa272f0a96812140e14868c88f', 'pynacl'],
+    install_requires=['discord.py @ git+https://github.com/dolfies/discord.py-self.git@20ae80b398ec83fa272f0a96812140e14868c88f', 'pynacl'],
     extras_require=extras_require,
     zip_safe=False,
     classifiers=[
