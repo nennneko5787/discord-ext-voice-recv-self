@@ -1,1 +1,2 @@
-discord.py[voice]>=2.2.0
+git+https://github.com/dolfies/discord.py-self.git@20ae80b398ec83fa272f0a96812140e14868c88f
+pynacl
